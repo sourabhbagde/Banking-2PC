@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+// definition of the Banking service.
+service BankingService {
+    // The coordinator sends a voting request.
+    rfc voting_request(vote_request) returns (vote_response) {}
+    // Participants respond with either commit or abort.
+    rfc voting_response() returns () {}
+
+
+}
