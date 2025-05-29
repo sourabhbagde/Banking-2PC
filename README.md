@@ -1,6 +1,6 @@
-implementing a simplified version of consensus algorithms, 2PC and Raft. Through this assignment, you will understand how 2PC achieves distributed commit and Raft achieves fault-tolerant consensus, handle leader election, maintain log consistency, and manage distributed state transitions.
+# implementing a simplified version of consensus algorithms, 2PC and Raft. 
 
-Distributed Banking System (2PC Voting Phase)
+## Distributed Banking System (2PC Voting Phase)
 Description:
 Simulate a distributed banking system where different bank branches must agree on processing a transaction.
 Each branch (participant) votes to either commit or abort the transaction based on local account balances and constraints.
